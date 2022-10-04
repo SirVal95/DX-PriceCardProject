@@ -73,6 +73,7 @@ body {
     height: auto;
     width: 100%;
     margin-top: 20px;
+    margin-bottom: 25px;
 }
 
 .hero {
@@ -81,14 +82,14 @@ body {
     border: solid 2px #000000;
     border-radius: 20px;
     margin: 10px 20px;
-    padding: 35px;
+    padding: 30px 0;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
 }
 
 .hero-content {
-    padding: 15px;
+    padding: 20px;
     border-left: solid 2px #000000;
 }
 
@@ -147,6 +148,8 @@ body {
     margin-right: 10px;
 }
 
+
+
 @media screen and (max-width:900px) {
     .first-section p {
         font-size: 20px;
@@ -154,5 +157,13 @@ body {
         margin-right: 70px;
         margin-left: 70px;
         line-height: 25px;
+    }
+
+    .hero {
+        flex-direction: column;
+    }
+
+    .hero-content {
+        border-left: none;
     }
 }
