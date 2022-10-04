@@ -185,6 +185,22 @@ body {
         line-height: 25px;
     }
 
+    .subscription-button button {
+        padding: 8px 10px;
+    }
+
+    .subscription-button button:hover {
+        padding: 8px 12px;
+    }
+
+    .subscription-button a{
+        margin: 10px 10px;
+    }
+
+    .subscription-button a:hover {
+        margin: 10px 13px;
+    }
+
     .hero {
         flex-direction: column;
     }
