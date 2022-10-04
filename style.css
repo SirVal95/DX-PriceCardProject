@@ -8,6 +8,7 @@ body {
     font-family: 'Inter', sans-serif;
 }
 
+/* Header styling */
 .first-section {
     width: 100%;
     height: auto;
@@ -66,7 +67,7 @@ body {
 }
 
 .subscription-button a:hover {
-    margin: 15px 18px;
+    margin: 15px 20px;
 }
 
 .second-section {
@@ -76,6 +77,7 @@ body {
     margin-bottom: 25px;
 }
 
+/* Styling the Hero section */
 .hero {
     height: auto;
     background: #ffff;
@@ -149,6 +151,7 @@ body {
     font-weight: 900;
 }
 
+/* Styling the footer section */
 .footer{
     width: 100%;
     height: auto;
@@ -156,9 +159,23 @@ body {
     text-align: center;
     font-size: 15px;
     font-weight: 700;
-    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 30px 30px;
 }
 
+.footer-icons a{
+    color: #000000;
+    margin: 0 5px;
+    font-size: 15px;
+    transition: 0.5s ease-in-out;
+}
+
+.footer-icons a:hover {
+    font-size: 22px;
+}
+
+/* Mobile view */
 @media screen and (max-width:900px) {
     .first-section p {
         font-size: 20px;
